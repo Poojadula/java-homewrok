@@ -1,0 +1,29 @@
+=========== BIO DATA ===========
+
+👤 Personal Details
+Name : Pooja
+Age : 21
+Gender : Female
+DOB : 16/04/1998
+Blood Group : B+
+
+🎓 Education
+Qualification : M.sc 
+College : Madurai Kamaraj University
+CGPA : 7
+
+💼 Skills
+Java Full Stack,Medical Coding
+
+Experience : 0 Year(s)
+
+📞 Contact
+Phone : 123456789
+Email : AKHFIEB
+Address : HIPBNVNHPEJJ
+
+👨‍👩‍👧 Family
+Father Name : Narayanasamy V
+Mother Name : Vadivu N
+
+================================
