@@ -1,0 +1,66 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
+
+// Utility class
+class ArrayUtils {
+
+    // Find maximum value
+    public static int findMax(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            throw new IllegalArgumentException("Array cannot be null or empty");
+        }
+
+        int max = arr[0];
+        for (int num : arr) {
+            if (num > max) {
+                max = num;
+            }
+        }
+        return max;
+    }
+
+    // Find minimum value
+    public static int findMin(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            throw new IllegalArgumentException("Array cannot be null or empty");
+        }
+
+        int min = arr[0];
+        for (int num : arr) {
+            if (num < min) {
+                min = num;
+            }
+        }
+        return min;
+    }
+}
+
+// JUnit Test Class
+class ArrayUtilsTest {
+
+    @Test
+    void testFindMax() {
+        int[] arr = {12, 5, 8, 20, 3};
+        assertEquals(20, ArrayUtils.findMax(arr));
+    }
+
+    @Test
+    void testFindMin() {
+        int[] arr = {12, 5, 8, 20, 3};
+        assertEquals(3, ArrayUtils.findMin(arr));
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+
+        int[] arr = {12, 5, 8, 20, 3};
+
+        int max = ArrayUtils.findMax(arr);
+        int min = ArrayUtils.findMin(arr);
+
+        System.out.println("Maximum Value : " + max);
+        System.out.println("Minimum Value : " + min);
+    }
+}
